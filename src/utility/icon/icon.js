@@ -162,3 +162,40 @@ export function SimpatisanIcon() {
     </svg>
   );
 }
+
+export function PendudukIcon() {
+  return (
+    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M18 5.03121C19.2827 3.57798 21.1593 2.66141 23.25 2.66141C27.116 2.66141 30.25 5.79541 30.25 9.66141C30.25 13.5274 27.116 16.6614 23.25 16.6614C21.1593 16.6614 19.2827 15.7448 18 14.2916M23.25 34.1614H2.25V32.4114C2.25 26.6124 6.95101 21.9114 12.75 21.9114C18.549 21.9114 23.25 26.6124 23.25 32.4114V34.1614ZM23.25 34.1614H33.75V32.4114C33.75 26.6124 29.049 21.9114 23.25 21.9114C21.3375 21.9114 19.5444 22.4227 18 23.3161M19.75 9.66141C19.75 13.5274 16.616 16.6614 12.75 16.6614C8.88401 16.6614 5.75 13.5274 5.75 9.66141C5.75 5.79541 8.88401 2.66141 12.75 2.66141C16.616 2.66141 19.75 5.79541 19.75 9.66141Z"
+        stroke="#374151"
+        strokeWidth="3.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function BackIcon() {
+  return (
+    <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="44" height="44" transform="translate(0 0.91124)" fill="#FF5001" />
+      <path d="M21 29.9112L14 22.9112L21 15.9112M29 29.9112L22 22.9112L29 15.9112" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function PetaKekuatanIcon() {
+  return (
+    <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M20.667 11.2448V21.5781M15.5003 15.1198V21.5781M10.3337 18.9948V21.5781M7.75033 26.7448H23.2503C24.6771 26.7448 25.8337 25.5882 25.8337 24.1615V8.66146C25.8337 7.23472 24.6771 6.07812 23.2503 6.07812H7.75033C6.32359 6.07812 5.16699 7.23472 5.16699 8.66146V24.1615C5.16699 25.5882 6.32359 26.7448 7.75033 26.7448Z"
+        stroke="white"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
