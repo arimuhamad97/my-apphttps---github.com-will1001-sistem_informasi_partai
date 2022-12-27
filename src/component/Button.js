@@ -1,10 +1,10 @@
 import React from "react";
 
-function Button({ icon, title, w, h }) {
+function Button({ icon, title, w, h, bgColor }) {
   return (
-    <button>
-      <div className={`flex bg-slate-700 justify-center items-center rounded-sm gap-2 w-${w} h-${h}`}>
-        <span>{icon}</span>
+    <button style={{ width: w, height: h, backgroundColor: bgColor }} className={`rounded-sm`}>
+      <div className="flex justify-center items-center  gap-2 ">
+        {icon}
         <p className="font-semibold text-[26px] text-white">{title}</p>
       </div>
     </button>

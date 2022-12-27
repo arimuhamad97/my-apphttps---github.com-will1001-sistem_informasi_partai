@@ -1,0 +1,210 @@
+{
+  "total": [
+    {
+      "id": 1,
+      "total": "123.321",
+      "title": "Jumlah Penduduk"
+    },
+    {
+      "id": 2,
+      "total": "145.000",
+      "title": "Jumlah Pemilih"
+    },
+    {
+      "id": 3,
+      "total": "112.000",
+      "title": "Jumlah TPS"
+    }
+  ],
+  "wilayah": [
+    {
+      "kabupaten": "Mataram",
+      "jumlahPenduduk": "552.845",
+      "jumlahPemilih": "325.574",
+      "jumlahDPT": "325.574",
+      "jumlahTPS": "25",
+      "jumlahRelawan": "25",
+      "jumlahSimpatisan": "25",
+      "profilPengurus": {
+        "MPW": "Achmad Ru'yat",
+        "DPW": "Khoirudin",
+        "DSW": "Chandra Pradana"
+      },
+      "kecamatan": {
+        "Ampenan": {
+          "nama": "Ampenan",
+          "desa": [
+            {
+              "ampenanSelatan": {
+                "nama": "Ampenan Selatan",
+                "jumlahPenduduk": "552.284",
+                "jumlahDPT": "325.574",
+                "jumlahDPS": "325.574",
+                "jumlahTPS": "25",
+                "relawan": "42",
+                "simpatisn": "325.574",
+                "program": [
+                  "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+                  "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+                  "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+                ]
+              }
+            }
+          ]
+        },
+        "Mpunda": "",
+        "Raba": "",
+        "RasanaeBarat": "",
+        "RasanaeTimur": ""
+      }
+    },
+    {
+      "kabupaten": "Lombok Timur",
+      "jumlahPenduduk": "552.845",
+      "jumlahPemilih": "325.574",
+      "jumlahDPT": "325.574",
+      "jumlahTPS": "25",
+      "jumlahRelawan": "25",
+      "jumlahSimpatisan": "25",
+      "profilPengurus": {
+        "MPW": "Achmad Ru'yat",
+        "DPW": "Khoirudin",
+        "DSW": "Chandra Pradana"
+      },
+      "kecamatan": {
+        "Ampenan": {
+          "nama": "Ampenan",
+          "ampenanSelatan": {
+            "nama": "Ampenan Selatan",
+            "jumlahPenduduk": "552.284",
+            "jumlahDPT": "325.574",
+            "jumlahDPS": "325.574",
+            "jumlahTPS": "25",
+            "relawan": "42",
+            "simpatisn": "325.574",
+            "program": [
+              "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+              "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+              "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+            ]
+          }
+        },
+        "Mpunda": "",
+        "Raba": "",
+        "RasanaeBarat": "",
+        "RasanaeTimur": ""
+      }
+    },
+    {
+      "kabupaten": "Lombok Barat",
+      "jumlahPenduduk": "552.845",
+      "jumlahPemilih": "325.574",
+      "jumlahDPT": "325.574",
+      "jumlahTPS": "25",
+      "jumlahRelawan": "25",
+      "jumlahSimpatisan": "25",
+      "profilPengurus": {
+        "MPW": "Achmad Ru'yat",
+        "DPW": "Khoirudin",
+        "DSW": "Chandra Pradana"
+      },
+      "kecamatan": {
+        "Ampenan": {
+          "nama": "Ampenan",
+          "ampenanSelatan": {
+            "nama": "Ampenan Selatan",
+            "jumlahPenduduk": "552.284",
+            "jumlahDPT": "325.574",
+            "jumlahDPS": "325.574",
+            "jumlahTPS": "25",
+            "relawan": "42",
+            "simpatisn": "325.574",
+            "program": [
+              "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+              "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+              "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+            ]
+          }
+        },
+        "Mpunda": "",
+        "Raba": "",
+        "RasanaeBarat": "",
+        "RasanaeTimur": ""
+      }
+    },
+    {
+      "kabupaten": "Lombok Tengah",
+      "jumlahPenduduk": "552.845",
+      "jumlahPemilih": "325.574",
+      "jumlahDPT": "325.574",
+      "jumlahTPS": "25",
+      "jumlahRelawan": "25",
+      "jumlahSimpatisan": "25",
+      "profilPengurus": {
+        "MPW": "Achmad Ru'yat",
+        "DPW": "Khoirudin",
+        "DSW": "Chandra Pradana"
+      },
+      "kecamatan": {
+        "Ampenan": {
+          "nama": "Ampenan",
+          "ampenanSelatan": {
+            "nama": "Ampenan Selatan",
+            "jumlahPenduduk": "552.284",
+            "jumlahDPT": "325.574",
+            "jumlahDPS": "325.574",
+            "jumlahTPS": "25",
+            "relawan": "42",
+            "simpatisn": "325.574",
+            "program": [
+              "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+              "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+              "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+            ]
+          }
+        },
+        "Mpunda": "",
+        "Raba": "",
+        "RasanaeBarat": "",
+        "RasanaeTimur": ""
+      }
+    },
+    {
+      "kabupaten": "Lombok Utara",
+      "jumlahPenduduk": "552.845",
+      "jumlahPemilih": "325.574",
+      "jumlahDPT": "325.574",
+      "jumlahTPS": "25",
+      "jumlahRelawan": "25",
+      "jumlahSimpatisan": "25",
+      "profilPengurus": {
+        "MPW": "Achmad Ru'yat",
+        "DPW": "Khoirudin",
+        "DSW": "Chandra Pradana"
+      },
+      "kecamatan": {
+        "Ampenan": {
+          "nama": "Ampenan",
+          "ampenanSelatan": {
+            "nama": "Ampenan Selatan",
+            "jumlahPenduduk": "552.284",
+            "jumlahDPT": "325.574",
+            "jumlahDPS": "325.574",
+            "jumlahTPS": "25",
+            "relawan": "42",
+            "simpatisn": "325.574",
+            "program": [
+              "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+              "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+              "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+            ]
+          }
+        },
+        "Mpunda": "",
+        "Raba": "",
+        "RasanaeBarat": "",
+        "RasanaeTimur": ""
+      }
+    }
+  ]
+}
