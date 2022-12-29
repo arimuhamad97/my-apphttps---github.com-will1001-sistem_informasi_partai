@@ -19,19 +19,19 @@
   "wilayah": [
     {
       "kabupaten": "Mataram",
-      "jumlahPenduduk": "552.845",
-      "jumlahPemilih": "325.574",
-      "jumlahDPT": "325.574",
-      "jumlahTPS": "25",
-      "jumlahRelawan": "25",
-      "jumlahSimpatisan": "25",
+      "jumlahPenduduk": 552843,
+      "jumlahPemilih": 325574,
+      "jumlahDPT": 325574,
+      "jumlahTPS": 25,
+      "jumlahRelawan": 25,
+      "jumlahSimpatisan": 25,
       "profilPengurus": {
         "MPW": "Achmad Ru'yat",
         "DPW": "Khoirudin",
         "DSW": "Chandra Pradana"
       },
-      "kecamatan": {
-        "Ampenan": {
+      "kecamatan": [
+        {
           "nama": "Ampenan",
           "desa": [
             {
@@ -52,11 +52,11 @@
             }
           ]
         },
-        "Mpunda": "",
-        "Raba": "",
-        "RasanaeBarat": "",
-        "RasanaeTimur": ""
-      }
+        { "nama": "Mpunda" },
+        { "nama": "Raba" },
+        { "nama": "RasanaeBarat" },
+        { "nama": "RasanaeTimur" }
+      ]
     },
     {
       "kabupaten": "Lombok Timur",

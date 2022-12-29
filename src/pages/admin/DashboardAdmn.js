@@ -18,7 +18,7 @@ function AdminDashboard() {
       setDataPemilih(res.data[1]);
       setDataTPS(res.data[2]);
     });
-  }, [JumlahPenduduk]);
+  }, []);
 
   return (
     <div className="bg-orange-50">
