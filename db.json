@@ -35,24 +35,53 @@
           "nama": "Ampenan",
           "desa": [
             {
-              "ampenanSelatan": {
-                "nama": "Ampenan Selatan",
-                "jumlahPenduduk": "552.284",
-                "jumlahDPT": "325.574",
-                "jumlahDPS": "325.574",
-                "jumlahTPS": "25",
-                "relawan": "42",
-                "simpatisn": "325.574",
-                "program": [
-                  "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
-                  "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
-                  "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
-                ]
-              }
+              "nama": "Ampenan Selatan",
+              "link": "ampenanSelatan",
+              "jumlahPenduduk": 552284,
+              "jumlahDPT": 325574,
+              "jumlahDPS": 325574,
+              "jumlahTPS": 25,
+              "relawan": 42,
+              "simpatisn": 325574,
+              "program": [
+                "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+                "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+                "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+              ]
+            },
+            {
+              "nama": "desa Selatan",
+              "link": "ampenanSelatan2",
+              "jumlahPenduduk": 552284,
+              "jumlahDPT": 325574,
+              "jumlahDPS": 325574,
+              "jumlahTPS": 25,
+              "relawan": 42,
+              "simpatisn": 325574,
+              "program": [
+                "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+                "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+                "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+              ]
+            },
+            {
+              "nama": "dasa3 Selatan",
+              "link": "ampenanSelatan3",
+              "jumlahPenduduk": 552284,
+              "jumlahDPT": 325574,
+              "jumlahDPS": 325574,
+              "jumlahTPS": 25,
+              "relawan": 42,
+              "simpatisn": 325574,
+              "program": [
+                "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+                "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+                "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+              ]
             }
           ]
         },
-        { "nama": "Mpunda" },
+        { "nama": "Mpunda", "desa": [] },
         { "nama": "Raba" },
         { "nama": "RasanaeBarat" },
         { "nama": "RasanaeTimur" }
@@ -205,6 +234,53 @@
         "RasanaeBarat": "",
         "RasanaeTimur": ""
       }
+    }
+  ],
+  "desa": [
+    {
+      "nama": "Ampenan Selatan",
+      "kecamatan": "Ampenan",
+      "jumlahPenduduk": 552284,
+      "jumlahDPT": 325574,
+      "jumlahDPS": 325574,
+      "jumlahTPS": 25,
+      "relawan": 42,
+      "simpatisn": 325574,
+      "program": [
+        "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+        "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+        "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+      ]
+    },
+    {
+      "nama": "Ampenan Selatan2",
+      "kecamatan": "ampenanSelatan2",
+      "jumlahPenduduk": 552284,
+      "jumlahDPT": 325574,
+      "jumlahDPS": 325574,
+      "jumlahTPS": 25,
+      "relawan": 42,
+      "simpatisn": 325574,
+      "program": [
+        "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+        "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+        "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+      ]
+    },
+    {
+      "nama": "Ampenan Selatan3",
+      "kecamatan": "ampenanSelatan3",
+      "jumlahPenduduk": 552284,
+      "jumlahDPT": 325574,
+      "jumlahDPS": 325574,
+      "jumlahTPS": 25,
+      "relawan": 42,
+      "simpatisn": 325574,
+      "program": [
+        "Ut ullamco sit exercitation consequat. Voluptate in eiusmod mollit incididunt quis elit aliqua. Lorem enim ad elit quis nostrud qui velit. In tempor occaecat commodo dolore.",
+        "Veniam culpa cillum officia dolore aliquip. Dolore pariatur ex ea velit fugiat enim non elit in. Id nisi proident eu cupidatat incididunt est.",
+        "Ut eiusmod do laboris ipsum amet magna sint est dolore. Deserunt sunt do ut aliqua sit ea. Occaecat nulla culpa nisi nulla magna occaecat ex qui non ipsum nisi eiusmod. Aliqua voluptate exercitation non occaecat consectetur eu consequat pariatur nulla officia dolore aliquip amet. Proident cupidatat ipsum voluptate exercitation qui enim deserunt tempor exercitation est magna."
+      ]
     }
   ]
 }

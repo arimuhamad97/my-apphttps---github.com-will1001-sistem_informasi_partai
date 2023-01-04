@@ -1,8 +1,9 @@
 import React from "react";
-import { DataPerdesaIcon, KembaliIcon } from "../../utility/icon/icon";
+import { DataPerdesaIcon, KembaliIcon, TpsIcon } from "../../utility/icon/icon";
 import Button from "../Button";
-import mataramImg from "../../utility/mataram.jpg";
+import JumlahPenduduk from "../JumlahPenduduk";
 import ProgressBar from "../../utility/ProgresBar";
+import { Link } from "react-router-dom";
 
 const MataramContent = ({ data }) => {
   const persentase = (data?.jumlahPemilih / data?.jumlahPenduduk) * 100;
@@ -10,11 +11,20 @@ const MataramContent = ({ data }) => {
   return (
     <div>
       <div className="flex gap-2 mb-4">
-        <Button title={"Kembali"} icon={<KembaliIcon />} bgColor={"rgb(51, 65, 85)"} w={"149px"} h={"53px"} />
-        <Button title={"Data Per Desa"} icon={<DataPerdesaIcon />} bgColor={"#FF5001"} w={"211px"} h={"53px"} />
+        <Button title={"Kembali"} text={"white"} icon={<KembaliIcon />} bgColor={"rgb(51, 65, 85)"} w={"149px"} h={"53px"} />
+        <Link to={"/mataram/detail-kota/"}>
+          <Button title={"Data Per Desa"} text="white" icon={<DataPerdesaIcon />} bgColor={"#FF5001"} w={"211px"} h={"53px"} />
+        </Link>
       </div>
       <h1 className="text-[32px] font-bold text-slate-700">Kota Mataram</h1>
-      <img src={mataramImg} alt="mataram" />
+      <div className="flex mt-8 justify-between">
+        <JumlahPenduduk title={"Relawan"} icon={<TpsIcon />} total="123.123" h={"63px"} w={"175px"} totalSize={"21px"} titleSize={"18px"} />
+        <JumlahPenduduk title={"Relawan"} icon={<TpsIcon />} total="123.123" h={"63px"} w={"175px"} totalSize={"21px"} titleSize={"18px"} />
+      </div>
+      <div className="flex  mt-4 justify-between">
+        <JumlahPenduduk title={"Relawan"} icon={<TpsIcon />} total="123.123" h={"63px"} w={"175px"} totalSize={"21px"} titleSize={"18px"} />
+        <JumlahPenduduk title={"Relawan"} icon={<TpsIcon />} total="123.123" h={"63px"} w={"175px"} totalSize={"21px"} titleSize={"18px"} />
+      </div>
       <p className="text-[18px] text-slate-700 font-bold mt-2">Persentase Kekuatan</p>
       <ProgressBar progress={persentase.toFixed()} bgcolor={"#FF5001"} height={"24px"} />
       <div className="pr-16 mt-4">

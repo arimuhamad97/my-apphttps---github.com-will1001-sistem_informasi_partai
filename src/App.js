@@ -5,6 +5,8 @@ import Mataram from "./pages/admin/Mataram";
 import PetaKekuatan from "./pages/admin/PetaKekuatan";
 import { Provider } from "react-redux";
 import store from "./App/Store";
+import DetailKota from "./pages/admin/detailDesa/DetailKota";
+import DetailDesa from "./pages/admin/detailDesa/DetailDesa";
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
         <Routes>
           {/* routes admin pages */}
           <Route path="/admin/*" element={<Admin />} />
-          <Route path="/admin/peta-kekuatan/*" element={<PetaKekuatan />} />
-          <Route path="/admin/mataram/*" element={<Mataram />} />
+          <Route path="/peta-kekuatan/*" element={<PetaKekuatan />} />
+          <Route path="/mataram/*" element={<Mataram />} />
+          <Route path="/mataram/detail-kota/*" element={<DetailKota />} />
+          <Route path="/mataram/detail-desa/*" element={<DetailDesa />} />
         </Routes>
       </Provider>
     </>

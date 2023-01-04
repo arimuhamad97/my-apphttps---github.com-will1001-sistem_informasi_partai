@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import dataWilayahReducer from "./features/data-wilayah/dataWilayahSlice";
+import dataDesa from "./features/API/dataDesa";
+import dataWilayahReducer from "./features/API/dataWilayahSlice";
 
 const store = configureStore({
   reducer: {
     dataWilayah: dataWilayahReducer,
+    dataDesa: dataDesa,
   },
 });
 

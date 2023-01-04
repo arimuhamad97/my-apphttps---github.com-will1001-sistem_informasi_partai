@@ -8,7 +8,7 @@ import AdminContent from "../../component/sidebar/AdminContent";
 function Admin() {
   return (
     <>
-      <div className="flex">
+      <div className="flex ">
         <div className="basis-3/12 h-full">
           <SideBar content={<AdminContent />} />
         </div>

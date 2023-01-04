@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { fetchDataWilayah } from "../../App/features/data-wilayah/dataWilayahSlice";
+import { fetchDataWilayah } from "../../App/features/API/dataWilayahSlice";
 import MataramContent from "../../component/sidebar/MataramContent";
 import SideBar from "../../component/sidebar/SideBar";
 import { BackIcon } from "../../utility/icon/icon";
@@ -15,8 +15,6 @@ const Mataram = () => {
   }, [dispatch]);
 
   const dataMataram = useSelector((state) => state.dataWilayah.data[0]);
-
-  console.log(dataMataram?.kecamatan);
 
   return (
     <div className="flex">

@@ -1,16 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 
-import { PendudukIcon } from "../utility/icon/icon";
-
-function JumlahPenduduk({ total }) {
+function JumlahPenduduk({ title, total, icon, h, w, totalSize, titleSize }) {
+  const [select, setSelect] = useState(false);
   return (
-    <div className="flex border border-orange-300 px-2 py-4 justify-center items-center gap-2 w-[254px] h-[79px]">
-      <PendudukIcon />
-      <div className="text-center">
-        <span className="text-orange-600 text-[32px] font-bold">{total.total}</span>
-        <p className="text-[21px] font-medium text-slate-700">{total.title}</p>
+    <button
+      style={{ width: w, height: h }}
+      onClick={() => {
+        setSelect(!select);
+      }}
+      className={` ${select === true ? "text-white" : "text-orange-600"}
+      ${select === true ? "bg-orange-600" : "bg-white"}
+      ${select === true ? "stroke-white" : "stroke-orange-600"}
+       flex border rounded-md   border-orange-300 justify-start p-4 items-center gap-4`}
+    >
+      <div className="flex items-center gap-2">
+        {icon}
+        <div className="flex flex-col justify-start items-start ">
+          <span className={`text-[${totalSize}] font-bold`}>{total}</span>
+          <p className={`text-[${titleSize}] font-medium`}>{title}</p>
+        </div>
       </div>
-    </div>
+    </button>
   );
 }
 

@@ -8,7 +8,7 @@ import PetaLombok from "../../utility/PetaLombok";
 function PetaKekuatan() {
   return (
     <div className="flex">
-      <div className="flex basis-3/12">
+      <div className="flex basis-3/12 ">
         <SideBar content={<PetaKekuatanContent />} />
       </div>
       <div className="basis-9/12 bg-orange-50">

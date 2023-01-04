@@ -9,7 +9,7 @@ function SideBar({ content }) {
         <Logo />
       </div>
       <div className="mb-auto">{content}</div>
-      <div>
+      <div className="mt-24 bottom-0 -z-10">
         <Footer />
       </div>
     </div>
